@@ -1404,7 +1404,7 @@ const mytmplt kModules[MAXMODULE] PROGMEM = {
                        // GPIO07 (SD_DATA0 Flash QIO/DIO/DOUT)
                        // GPIO08 (SD_DATA1 Flash QIO/DIO/DOUT)
      GPIO_USER,        // GPIO09 Button 1 on header (0 = On, 1 = Off)
-     GPIO_KEY1,        // GPIO10 Button on casing
+     0,        // GPIO10 Button on casing
                        // GPIO11 (SD_CMD   Flash)
      GPIO_REL1,        // GPIO12 Relay 1 (0 = Off, 1 = On)
      GPIO_LED1_INV,    // GPIO13 Blue Led (0 = On, 1 = Off) - Link and Power status
